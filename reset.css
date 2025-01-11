@@ -1,0 +1,27 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html, body {
+    font-size: 62.5%;
+    max-width: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+}
+
