@@ -5,4 +5,5 @@ edition = "2021"
 
 [dependencies]
 leptos = { version = "0.7.3", features = ["csr"] }
+leptos-use = { version = "*" ,default-features = false, features = ["use_window_size", "docs"] }
 # stylers = { version = "*" }

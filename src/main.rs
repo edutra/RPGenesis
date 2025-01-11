@@ -1,7 +1,7 @@
-// mod components;
+mod components;
 use leptos::prelude::*;
 // use components::btn::MyButton;
-
+use components::app_canvas::AppCanvas;
 #[component]
 fn App() -> impl IntoView {
     fn setStyle() -> String {
@@ -22,8 +22,7 @@ fn App() -> impl IntoView {
                 </li>
                 </ul>
             </nav>
-        <canvas style="border: 1px solid black; width: 100%; height:100%; background-color: white;">
-        </canvas>
+        <AppCanvas cell_size=35 />
         </main>
 
     }
